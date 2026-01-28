@@ -1,5 +1,6 @@
 package com.github.shomus.extendedutils;
 
+import com.github.shomus.extendedutils.common.block.ModBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +17,8 @@ public class ExtendedUtils
     public ExtendedUtils(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+        ModBlocks.register(modEventBus);
+        ModBlocks.register(modEventBus);
     }
 
 
