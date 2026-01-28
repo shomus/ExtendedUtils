@@ -10,11 +10,13 @@ import org.slf4j.Logger;
 @Mod(ExtendedUtils.MODID)
 public class ExtendedUtils
 {
-    public static final String MODID = "examplemod";
+    public static final String MODID = "extendedutils";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public ExtendedUtils(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
     }
+
+
 }

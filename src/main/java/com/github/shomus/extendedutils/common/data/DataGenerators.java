@@ -15,7 +15,7 @@ import java.util.concurrent.CompletableFuture;
         modid = ExtendedUtils.MODID,
         bus = Mod.EventBusSubscriber.Bus.MOD
 )
-public class DataGen {
+public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent e) {
         DataGenerator generator = e.getGenerator();
